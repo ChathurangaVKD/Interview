@@ -1,6 +1,6 @@
 package org.interview.designpattern.creational.builder;
 
-public class Main {
+public class ClientCode {
     public static void main(String[] args) {
         Employee employee = new EmployeeBuilder()
                 .setName("Dasun")

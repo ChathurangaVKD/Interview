@@ -18,7 +18,7 @@ public class BinarySearch {
 
     public static void main(String... args) {
         int [] inputNumbers = {1, 3, 8, 9, 11, 23, 90};
-        int index = getItem(inputNumbers, 90);
+        int index = getItem(inputNumbers, 8);
         System.out.println(index);
 
     }

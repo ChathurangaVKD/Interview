@@ -1,6 +1,5 @@
 package org.interview.solidprinciples.dependencyinversion.voilateDIP;
-
-import org.solidprinciples.dependencyinversion.GasEngine;
+import org.interview.solidprinciples.dependencyinversion.GasEngine;
 
 public class Car {
     private final GasEngine gasEngine = new GasEngine(); // toughly couple

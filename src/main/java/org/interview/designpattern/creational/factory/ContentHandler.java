@@ -1,5 +1,5 @@
 package org.interview.designpattern.creational.factory;
 
-public interface Phone {
-    String getSpec();
+public interface ContentHandler {
+    String process();
 }
