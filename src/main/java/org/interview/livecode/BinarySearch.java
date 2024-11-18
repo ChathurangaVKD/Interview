@@ -3,7 +3,7 @@ package org.interview.livecode;
 public class BinarySearch {
     public static int getItem(int [] n, int searchItem) {
         int left = 0;
-        int right = n.length -1;
+        int right = n.length - 1;
         while (left<=right) {
             int mid = left + (right - left)/2;
             if (n[mid]==searchItem)
